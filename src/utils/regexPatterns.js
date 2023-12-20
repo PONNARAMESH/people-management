@@ -1,0 +1,2 @@
+export const userId = /[a-z\ ]{3-10}@gmail.com$/; // should modity to accept emailIDs as userId
+export const password = /[\w\ `~!@#$%^&*\(\)_+=\[\]\{\}\\\|;':",.\/<>\?]{8,12}/; // combiantion of a-zA_Z1-0 and some special chars
